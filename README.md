@@ -9,26 +9,27 @@
 6. Activate the virtual environment `.\venv\Scripts\activate.bat`
 7. Install additional Python modules `pip install flask pytest`
 8. Set environment variables:
-<code>
+<pre>
 set FLASK_APP=paranuara/__init__.py
 set FLASK_ENV=development
-</code>
+</pre>
 9. Initialise the database `flask init-db`
 10. Import companies.json and people.json into the database `flask import-json <path-to>companies.json <path-to>people.json`
 
 ## Run Pytest
 1. `cd C:\paranuara`
-2. Set environment variable `set PYTHONPATH=.`
-3. Run Pytest `pytest`
+2. Activate the virtual environment `.\venv\Scripts\activate.bat`
+3. Set environment variable `set PYTHONPATH=.`
+4. Run Pytest `pytest`
 
 ## Run Server
 1. `cd C:\paranuara`
 2. Activate the virtual environment `.\venv\Scripts\activate.bat`
 3. Set environment variables:
-<code>
+<pre>
 set FLASK_APP=paranuara/__init__.py
 set FLASK_ENV=development
-</code>
+</pre>
 4. Start server `flask run`
 
 ## Check Endpoints

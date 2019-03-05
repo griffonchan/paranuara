@@ -1,0 +1,1 @@
+DATABASE = "paranuara.sqlite"

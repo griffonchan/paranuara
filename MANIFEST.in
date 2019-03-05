@@ -1,0 +1,4 @@
+include paranuara/schema.sql
+include paranuara/fruits.txt
+include paranuara/vegetables.txt
+global-exclude *.pyc

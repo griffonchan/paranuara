@@ -3,20 +3,18 @@
 ## Installation Instructions
 1. Install Anaconda 2018.12 Python 3.7 64-bit
 2. Install Microsoft Visual C++ 2015 Redistributable Package `http://www.microsoft.com/en-us/download/default.aspx`
-3. Create a directory, i.e. `C:\paranuara`
-4. /paranuara/paranuara
-5. /paranuara/tests
-6. `cd C:\paranuara`
-7. Create a virtual environment `python -m venv venv`
-8. Activate the virtual environment `.\venv\Scripts\activate.bat`
-9. Install additional Python modules `pip install flask pytest`
-10. Set environment variables:
+3. Clone the repo `https://github.com/griffonchan/paranuara.git` to a directory, i.e. `C:\paranuara`
+4. `cd C:\paranuara`
+5. Create a virtual environment `python -m venv venv`
+6. Activate the virtual environment `.\venv\Scripts\activate.bat`
+7. Install additional Python modules `pip install flask pytest`
+8. Set environment variables:
 <code>
 set FLASK_APP=paranuara/__init__.py
 set FLASK_ENV=development
 </code>
-11. Initialise the database `flask init-db`
-12. Import companies.json and people.json into the database `flask import-json <path-to>companies.json <path-to>people.json`
+9. Initialise the database `flask init-db`
+10. Import companies.json and people.json into the database `flask import-json <path-to>companies.json <path-to>people.json`
 
 ## Run Pytest
 1. `cd C:\paranuara`
